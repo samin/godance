@@ -1,0 +1,72 @@
+{
+  "name": "handsfree-test",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://samin.github.io/godance",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.8.3",
+    "gh-pages": "^3.2.3",
+    "handsfree": "^8.4.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "extends": [
+      "airbnb"
+    ],
+    "env": {
+      "browser": true,
+      "node": true,
+      "jasmine": true
+    },
+    "rules": {
+      "no-console": 0,
+      "func-names": 0,
+      "no-unused-vars": "warn",
+      "no-param-reassign": 0,
+      "import/prefer-default-export": 0,
+      "import/no-cycle": 0,
+      "react/state-in-constructor": 0,
+      "react/prop-types": 0,
+      "react/jsx-filename-extension": 0,
+      "react/no-array-index-key": 0,
+      "react/prefer-stateless-function": 0,
+      "react/jsx-props-no-spreading": 0,
+      "react/static-property-placement": 0
+    }
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-react": "7.23.1",
+    "eslint-plugin-react-hooks": "4.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

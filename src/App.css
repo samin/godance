@@ -1,0 +1,72 @@
+body {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.handsfree-canvas-video {
+  opacity: 0.4; 
+}
+.handsfree-debugger {
+  background-color: #000;
+}
+
+.target {
+  width: 50px;
+  height: 50px;
+  margin-left: -25px;
+  margin-top: -25px;
+  border-radius: 100%;
+  z-index: 1;
+  position: absolute;
+}
+
+.handle {
+  width: 50px;
+  height: 50px;
+  margin-left: -25px;
+  margin-top: -25px;
+  border-radius: 100%;
+  z-index: 1;
+  position: absolute;
+}
+
+.handle.head {
+  width: 150px;
+  height: 150px;
+  margin-left: -75px;
+  margin-top: -75px;
+}
+
+.button {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.button button {
+  font-size: 2em;
+}
+
+.score {
+  font-size: 3em;
+  font-weight: bold;
+  color: red;
+}
+
+.time {
+  font-size: 3em;
+  font-weight: bold;
+  color: orange;
+  text-align: right;
+}
+
+.controls:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.controls > div {
+  float: left;
+  width: 33%;
+}
