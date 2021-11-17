@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/godance/static/css/main.6136557c.chunk.css",
+    "main.js": "/godance/static/js/main.0a8b95b3.chunk.js",
+    "main.js.map": "/godance/static/js/main.0a8b95b3.chunk.js.map",
+    "runtime-main.js": "/godance/static/js/runtime-main.f1bf5ef7.js",
+    "runtime-main.js.map": "/godance/static/js/runtime-main.f1bf5ef7.js.map",
+    "static/css/2.d2e98c8f.chunk.css": "/godance/static/css/2.d2e98c8f.chunk.css",
+    "static/js/2.422786c8.chunk.js": "/godance/static/js/2.422786c8.chunk.js",
+    "static/js/2.422786c8.chunk.js.map": "/godance/static/js/2.422786c8.chunk.js.map",
+    "index.html": "/godance/index.html",
+    "static/css/2.d2e98c8f.chunk.css.map": "/godance/static/css/2.d2e98c8f.chunk.css.map",
+    "static/css/main.6136557c.chunk.css.map": "/godance/static/css/main.6136557c.chunk.css.map",
+    "static/js/2.422786c8.chunk.js.LICENSE.txt": "/godance/static/js/2.422786c8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f1bf5ef7.js",
+    "static/css/2.d2e98c8f.chunk.css",
+    "static/js/2.422786c8.chunk.js",
+    "static/css/main.6136557c.chunk.css",
+    "static/js/main.0a8b95b3.chunk.js"
+  ]
+}
